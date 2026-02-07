@@ -579,7 +579,7 @@
         min-width: 300px;
     }
     .starter-2 > div > div:nth-of-type(3) {
-        max-width: calc(100% - 400px);
+        max-width: calc(50vw - 15px);
     }
     .gallery {
         display: grid;
@@ -616,9 +616,14 @@
     }
 }
 @media screen and (max-width: 767px) {
+    .starter-2 > div {
+        flex-direction: column;
+        align-items: stretch;
+        gap: .8rem;
+        height: 1000px;
+    }
     .starter-2 > div > div {
-        display: grid;
-        grid-template-columns: 1fr;
+        flex: 1;
     }
     .gallery {
         display: grid;
