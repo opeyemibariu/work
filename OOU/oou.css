@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.constant {
+    display: flex;
+    flex-direction: column;
+}
+.extra {
+    align-items: center;
+}
+.container {
+    background-color: lightblue;
+    position: relative;
+}
+.the-main {
+    padding-top: 2rem;
+    padding: 1rem;
+}
+.warning-one {
+    color: red;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+.the-head {
+    margin: 0 1rem;
+}
+.head-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.head-title > h2 {
+    font-size: 4rem;
+    font-family: Tahoma;
+    white-space: nowrap;
+}
+.head-title > h2 ~ span {
+    font-weight: bold;
+    font-family: verdana;
+}
+.the-head > p {
+    background-color: blue;
+    color: yellowgreen;
+}
+.nav-bar > ul {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3rem;
+    background-color: midnightblue;
+    color: white;
+    font-weight: bold;
+}
+.nav-bar > ul > li {
+    list-style-type: none;
+    text-align: center;
+    padding: 0.6rem;
+}
+.nav-bar > ul > li:hover {
+    background-color: blue;
+}
+.students {
+    align-items: center;
+    gap: 2rem;
+}
+.students > h2 {
+    font-size: 2rem;
+    padding-left: 1.6rem;
+    align-self: flex-start;
+}
+.students > a {
+    display: inline-block;
+    padding: 0.6rem 8rem;
+    color: #eee;
+    background-color: green;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 1px solid green;
+    text-decoration: none;
+}
+.students > a:hover {
+    background-color: #eee;
+}
+.students > a ~ p {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.activity-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.activity-table > thead > tr > th {
+    font-size: 1.6rem;
+}
+
+.activity-table tr {
+    border-bottom: 1px solid black;
+}
+.activity-table tr > td:nth-child(1) {
+    font-weight: bold;
+}
+.login {
+    margin-top: 6rem;
+}
+.login > h2 > div {
+    width: 0.2em;
+    height: 0.2em;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5.14rem;
+    right: 2.6rem;
+}
+.login > h2 {
+    background-color: black;
+    color: white;
+    border-radius: 0.29rem;
+    font-size: 5rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    position: relative;
+    width: 23rem;
+    margin-bottom: 5rem;
+}
+.login > form > div {
+    margin-bottom: 3rem;
+}
+.login > form label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.login > form input {
+    margin-bottom: -0.1rem;
+    padding: 0.5rem;
+}
+.login > form small, .login > form label, .login > form input {
+    display: block;
+}
+.login > form > button {
+    margin-left: 1.75rem;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
+.login > form > button:hover {
+    background-color: lightblue;
+    border-radius: 0.4rem;
+}
+#selected-one {
+    background-color: blue;
+}
+.the-foot {
+    border-top: 1.6px solid black;
+    text-align: center;
+    padding: 1.5rem;
+}
+.the-foot > p > a {
+    color: blue;
+    text-decoration: none;
+}
+.the-foot > div {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: crimson;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.the-foot > div > span {
+    color: wheat;
+}
